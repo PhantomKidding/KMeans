@@ -1,13 +1,14 @@
-#Description
+#KMeans
+##Description
 This is an example of k-means running with Mahout 0.9 and Hadoop 1.2.1. The example is executed in eclipse.
 
-#Setup
+##Setup
   - open terminal
   - `mvn clean compile install`
   - set input and output path in **_main.java**
   - cmd + shift + F11
 
-#Maven
+##Maven
 To use maven, the appropriate setting has been added to **pom.xml**, with dependencies as following:
 ```
 <dependency>
